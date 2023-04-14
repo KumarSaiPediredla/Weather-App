@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/premium-photo/colorful-dramatic-sky-with-cloud-sunset-sky-with-sun-background_33736-1538.jpg?w=2000);
+    background-size: cover;
+}
+h2
+{
+    color: white;
+}
+section
+{
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    /* border: 3px solid white; */
+}
+div
+{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    width: 100%;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 0.3rem;
+    border: none;
+}
+button
+{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+#temperature
+{
+    border-bottom: 2px dashed white;
+    font-size: 1.5rem;
+}
+#city
+{
+    border-bottom: 2px dashed white;
+    font-size: 1.5rem;
+}
+#haze
+{
+    border-bottom: 2px dashed white;
+    font-size: 1.5rem;
+}
+ion-icon
+{
+    font-size: 2rem;
+}
